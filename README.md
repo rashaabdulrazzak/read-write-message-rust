@@ -56,3 +56,14 @@ near call message.rustnear.testnet get_status '{"account_id" : "rashaabdulrazzak
 ``` 
 where the account_id should be the account we signed the message in the previous step. 
 
+if the call is correct you will get the message in the terminal in our case we add a message : `hello` so in the terminal we will see `hello` as a result with a link to see the related transaction on the blockchain as cleared here:
+
+```
+Scheduling a call: message.rustnear.testnet.get_status({"account_id" : "rashaabdulrazzak.testnet"})
+Doing account.functionCall()
+
+Transaction Id 4VTHg9FkbbypsyxBMLLNk8CbkUygatvRem6R4fuiU9kF
+To see the transaction in the transaction explorer, please open this url in your browser
+https://explorer.testnet.near.org/transactions/4VTHg9FkbbypsyxBMLLNk8CbkUygatvRem6R4fuiU9kF
+'hello'
+``` 
