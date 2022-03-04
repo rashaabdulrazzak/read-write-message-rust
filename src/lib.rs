@@ -23,7 +23,7 @@ impl StatusMessage {
 // use the attribute below for unit tests
 #[cfg(test)]
 mod tests {
-    use crate::StatusMessage;
+    use super::*;
     use near_sdk::MockedBlockchain;
     use near_sdk::{testing_env, VMContext};
     // part of writing unit tests is setting up a mock context
